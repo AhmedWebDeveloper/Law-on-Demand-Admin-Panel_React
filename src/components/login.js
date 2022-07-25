@@ -51,13 +51,13 @@ const Login = () => {
 
               console.log(values);
               if (
-                values.email === "admin123@gmail.com" &&
-                values.password === "adminadmin"
+                values.email === "contact@lawondemand.com" &&
+                values.password === "lawadmin"
               ) {
                 setalertMessage("Login Successful");
                 setalertcolor("success");
                 // setloginspinner(false)
-                window.location.href = "/user";
+                window.location.href = "/users";
               } else {
                 setalertMessage("Email or Password is invalid");
                 setalertcolor("danger");

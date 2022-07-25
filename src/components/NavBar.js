@@ -32,11 +32,10 @@ const NavBar = () => {
         <img src={Logo} alt="" className="dashboard-logo " />
         <div className="" onClick={dashboardsett}>
           <svg
-            className="w-100 h-100 "
+            className="w-100 h-100 bi"
             width="32"
             height="32"
             xmlns="http://www.w3.org/2000/svg"
-            className="bi"
             fill="currentColor"
             viewBox="0 0 16 16"
           >
@@ -61,7 +60,7 @@ const NavBar = () => {
             <NavLink
               exact
               activeClassName="common"
-              to="/user"
+              to="/users"
               className="btn d-left-nav-link-user text-decoration-none w-100 text-start active"
             >
               Users
@@ -70,19 +69,19 @@ const NavBar = () => {
             <NavLink
               exact
               activeClassName="common"
-              to="/video"
+              to="/videos"
               className="d-left-nav-link-video  text-decoration-none btn w-100 text-start"
             >
-              Video
+              Videos
             </NavLink>
             <NavLink
               exact
               activeClassName="common"
-              to="/contact"
+              to="/contacts"
               href="#"
               className="d-left-nav-link-contact  text-decoration-none btn w-100 text-start"
             >
-              Contact
+              Contacts
             </NavLink>
           </div>
         </div>

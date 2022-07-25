@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Swal from "sweetalert2";
 import { Player, BigPlayButton } from "video-react";
+
 import data from "./videodata";
 const Videoapproval = () => {
   const [videoApproval, setVideoApproval] = useState(false);
@@ -22,7 +23,7 @@ const Videoapproval = () => {
             <div className="card">
               <Player
                 playsInline
-                poster="/assets/poster.png"
+                poster={value.poster}
                 src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
               >
                 <BigPlayButton position="center" />
@@ -41,7 +42,6 @@ const Videoapproval = () => {
                   videoApproval ? "" : "focus-active-input"
                 }`}
                 type="checkbox"
-                onClick={() => verifyVideo()}
               />
             </div>
           </td>

@@ -214,7 +214,6 @@ a.d-left-nav-secondlink {
   color: black;
 }
 
-
 /* ------End Left Navigation bar  & Top Top Header at mobile view-------- */
 
 /* ------Start Panels  Section-------- */
@@ -377,6 +376,9 @@ td .contact-Msg-btn:hover {
   border: none !important;
   left: 56% !important;
 }
+.video-react-poster {
+  background-size: 100% 120% !important;
+}
 
 .card-title {
   font-size: 1.1rem;
@@ -384,7 +386,6 @@ td .contact-Msg-btn:hover {
 .card-text {
   font-size: 0.8rem;
 }
-
 
 @media (max-width: 500px) {
   .table-container {
@@ -400,7 +401,6 @@ td .contact-Msg-btn:hover {
     padding: 0 6px !important;
   }
 }
-
 
 /* ------- End Video Section ------------- */
 
@@ -525,10 +525,9 @@ div .swal2-cancel {
 .swal2-container .swal2-popup {
   padding: 10px !important;
 }
-.swal2-actions {
-  margin-top: 0;
+div .swal2-actions {
+  margin-top: 0px !important;
   height: 36px;
 }
 
 /* -----Start Sweet Alert Modal Css-----  */
-
